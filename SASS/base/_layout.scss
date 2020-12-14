@@ -749,9 +749,9 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     gap: 1.5rem;
-    height: 52.5vh;
+    height: 55vh;
     width: 100vw;
 
     background-color: var(--darkblue1);
@@ -861,6 +861,27 @@
 
         align-self: center;
         justify-self: center;
+
+        font-size: var(--fs-text-big);
+        font-weight: 100;
+        color: #fff;
+    }
+
+    &-undertitle5 {
+        grid-column: 1 / span 2;
+        grid-row: 8 / 8;
+
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+
+        font-size: var(--fs-text-big);
+        font-weight: 100;
+        color: #fff;
+    }
+
+    .terms {
+        text-align: center;
 
         font-size: var(--fs-text-big);
         font-weight: 100;
